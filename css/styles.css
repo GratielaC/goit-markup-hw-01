@@ -1,0 +1,48 @@
+:root{
+    --primary-color:#2E2F42;
+    ;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+.header-link {
+font-family: Roboto;
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0.02em;
+color: var(--primary-color);
+}
+
+.header-link-active, 
+.header-link:hover {
+    color: var(--primary-color);
+}
+
+.header-list {
+background-color:#E7E9FC;
+}
+
+.primary-button {
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0.04em;
+color: #FFFFFF;
+cursor: pointer;
+}
+
+.hero-section {
+background-color: var(--primary-color);
+}
+
+.hero-title {
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 0.02em;
+}
+
+
