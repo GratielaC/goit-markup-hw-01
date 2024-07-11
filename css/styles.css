@@ -1,6 +1,5 @@
 :root{
     --primary-color:#2E2F42;
-    ;
 }
 
 body {
@@ -39,10 +38,12 @@ background-color: var(--primary-color);
 }
 
 .hero-title {
+    font-family: Roboto;
     font-size: 56px;
     font-weight: 700;
     line-height: 60px;
     letter-spacing: 0.02em;
+    color: #FFFFFF;
 }
 
 
