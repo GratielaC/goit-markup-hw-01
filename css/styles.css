@@ -15,9 +15,9 @@ letter-spacing: 0.02em;
 color: var(--primary-color);
 }
 
-.header-link-active, 
-.header-link:hover {
-    color: var(--primary-color);
+.header-link:hover,
+.header-link:focus {
+    color:#404BBF;
 }
 
 .header-list {
@@ -46,4 +46,43 @@ background-color: var(--primary-color);
     color: #FFFFFF;
 }
 
+.section-title {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0.02em;
+    color: var(--primary-color);
+}
 
+.section-description {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.02em;  
+    color: var(--primary-color);
+}
+
+ .section-paragraph {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color:#434455
+ }
+
+ .team-section {
+    background-color:#F4F4FD;
+    ;
+ }
+
+.footer {
+    background-color: var(--primary-color);
+}
+
+ .footer-paragraph {
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.02em;
+color:#F4F4FD;
+ }
