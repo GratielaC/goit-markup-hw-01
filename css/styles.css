@@ -22,12 +22,12 @@ color:#4d5ae5;
     color: #2e2f42;
 }
 
-.address {
+.address-link {
     font-style: normal;
     color: #434455;
 }
 
-.header-link {
+.header-nav {
 font-family: Roboto;
 font-size: 16px;
 font-weight: 500;
@@ -36,17 +36,18 @@ letter-spacing: 0.02em;
 color: #2e2f42;
 }
 
-.header-link:hover,
-.header-link:focus {
-    color:#404BBF;
-    background-color: #404BBF;
+.link-nav:hover,
+.link-nav:focus,
+.address-link:hover;
+.address-link:focus {
+color: #404BBF;
 }
 
 .header-list {
 background-color:#E7E9FC;
 }
 
-.primary-button {
+.order-button {
 font-size: 16px;
 font-weight: 500;
 line-height: 24px;
@@ -56,9 +57,9 @@ cursor: pointer;
 background-color: #4D5AE5;
 }
 
-.primary-button:hover,
-.primary-button:focus {
-    background-color: #4D5AE5;
+.order-button:hover,
+.order-button:focus {
+  background-color: #404BBF;
 }
 
 .hero-section {
@@ -117,7 +118,7 @@ color: #2e2f42;
     background-color: #FFFFFF;
 }
 
-.section-title {
+.section-three-title {
 font-size: 36px;
 font-weight: 700;
 line-height: 1.11;
