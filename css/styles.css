@@ -1,8 +1,108 @@
+/* Style reset */
+
+h1, 
+h2, 
+h3, 
+h4, 
+h5, 
+h6, 
+p { 
+  margin: 0;
+}
+html {
+  box-sizing: border-box;
+}
+*, 
+*::after, 
+*::before {
+  box-sizing: inherit;
+}
+img { 
+  display:block; 
+  max-width: 100%; 
+  height: auto;
+}
+address { 
+  font-style: normal; 
+}
+.link {
+  text-decoration: none; 
+  color:inherit; 
+}
+.ul {
+  list-style: none; 
+  padding: 0; 
+  margin: 0;
+}
+
+/* Style reset */
+
 body {
     background-color: #ffffff;
     color: #434455;
     font-family: "Roboto", sans-serif;
   }
+
+  .container {
+    width: 1158px;
+    align-items: center;
+  }
+
+  .section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #E7E9FC
+  width: 1440px;
+  height: 72px;
+  gap: 0px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+}
+
+.header-list .header-item {
+display: inline;
+margin-left: 40px;
+}
+
+.header-list .header-item:first-child {
+  margin-left: 156px;
+  margin-top: 25.5px;
+  margin-bottom: 25.5px;
+  margin-right: 76px;  
+}
+
+.header-list .header-item:first-child + .header-item {
+  margin-right: 40px;
+  margin-top: 24px;
+  margin-bottom: 24px;
+  margin-left: 76px;
+}
+
+.header-list .header-item:first-child + .header-item + .header-item {
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+.header-list .header-item:first-child + .header-item + .header-item + .header-item {
+  margin-left: 40px;
+  margin-right: 332px;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+
   .logo {
     color: #4d5ae5;
     font-family: "Raleway", sans-serif;
@@ -14,6 +114,7 @@ body {
   }
   .header-logo {
     color: #2e2f42;
+    display: inline;
   }
   .link-nav,
   .address-link {
@@ -31,6 +132,9 @@ body {
   }
   .header-address {
     font-style: normal;
+    display: flex;
+    align-items: center;
+    column-gap: 40px;
   }
   .address-link {
     color: #434455;
@@ -39,6 +143,17 @@ body {
     background-color: #2e2f42;
     color: #fff;
   }
+
+.about-container {
+display: block;
+justify-content: space-between;
+width: 1440px;
+height: 600px;
+top: 72px;
+gap: 0px;
+opacity: 0px;
+}
+
   .order-button {
     background-color: #4d5ae5;
     color: #fff;
@@ -48,49 +163,175 @@ body {
     cursor: pointer;
     line-height: 24px;
     letter-spacing: 0.04em;
+    padding: 16px 32px 16px 32px;
+    gap: 10px;
+    border-radius: 4px 0px 0px 0px;
+    opacity: 0px;
+    box-shadow: 0px 4px 4px 0px #00000026;
+    display: block;
+    margin-left: 636px;
+    margin-right: 635px;
+    margin-top: 48px;
+    margin-bottom: 188px;
   }
+
   .section-order-title {
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
+    margin-left: 472px;
+    margin-right: 472px;
+    margin-top: 180px;
+    margin-bottom: 48px;
   }
+
   .order-button:hover,
   .order-button:focus {
     background-color: #404bbf;
   }
-  .section-strategy-title,
-  .section-our-team-title,
-  .section-our-portfolio-title {
+  
+  
+  .company-section-title,
+  .our-team-section-title {
     color: #2e2f42;
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     text-align: center;
+    margin-bottom: 72px;
+    padding-bottom: 8px;
+    display: block;
+    align-items: center;
+    margin-left: 639px;
+    margin-right: 639px;
+    margin-top: 120px;
+    width: 162px;
+    height: 40px;
+    top: 1136px;
+    left: 639px;
+    gap: 0px;
+    opacity: 0px;
   }
   .list-el {
     background-color: #ffffff;
+    width: calc((100% - 48px) / 3);
   }
+
+
   .list-title {
     color: #2e2f42;
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    text-align: center;
+    margin-bottom: 8px;
+    width: 264px;
+    height: 24px;
+    gap: 0px;
+    opacity: 0px;
+    display: block;
+    align-items: center;
   }
+
   .list-info {
     color: #434455;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-  }
+    text-align: center;
+    width: 264px;
+    height: 72px;
+    gap: 0px;
+    opacity: 0px;
+    display: block;
+    align-items: center;
+ }
+.company-container {
+    display: block;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 120px;
+    margin-left: 156px;
+    margin-bottom: 120px;
+    margin-right: 156px;
+}
   .section-our-team {
     background-color: #f4f4fd;
     line-height: 1.11;
   }
+
+.team-container {
+display: block;
+align-items: center;
+justify-content: space-between;
+flex-basis: 50%;
+flex-shrink: 0;
+display: block;
+column-gap: 24px;
+}
+
   .section-our-team-title {
     text-align: center;
+  }
+
+  .portofolio-section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+
+  .portofolio-container {
+    justify-content: space-between;
+    display:block;
+    align-items: center;
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+
+  .our-portfolio-section-title {
+    color: #2e2f42;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    text-align: center;
+    margin-bottom: 72px;
+    padding-bottom: 8px;
+    display: block;
+    align-items: center;
+    margin-left: 611px;
+    margin-right: 611px;
+    margin-top: 120px;
+    width: 162px;
+    height: 40px;
+    top: 1136px;
+    left: 639px;
+    gap: 0px;
+    opacity: 0px;
+  }
+
+  .portofolio-list {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+  }
+
+  .item-info {
+    padding: 32px 16px;
+    border: 1px solid;
+    border-top: none;
+    margin-bottom: 8px;
+  }
+
+  .portofolio-images-container {
+  flex-basis: 50%;
+  flex-shrink: o;
+  display: block;
+  column-gap: 24px;
   }
   
   .footer {
@@ -107,8 +348,15 @@ body {
     color: #4d5ae5;
 }
 
-.span {
+.logo-studio-footer {
     color: #f4f4fd;
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0.03em;
+    margin-bottom: 16px;
+    display: inline-block;
 }
 
  .footer-paragraph {
