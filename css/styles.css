@@ -93,25 +93,27 @@ body {
 
 /* First section styles */
 
-.main-section {
+.first-section {
   padding: 188px 0;
+  background-color: #2E2F42;
 }
 
-.section-container {
+.about-containerr {
   max-width: 1200px;
   margin: 0 auto;
   text-align: center;
 }
 
-.section-title {
+.section-order-title {
   max-width: 496px;
   margin: 0 auto;
   font-size: 32px;
   font-weight: bold;
   line-height: 1.2;
+  color: #FFFFFF;
 }
 
-.cta-button {
+.order-button {
   display: block;
   margin: 20px auto;
   min-width: 169px;
@@ -124,8 +126,8 @@ body {
   cursor: pointer;
 }
 
-.cta-button:hover,
-.cta-button:focus {
+.order-button:hover,
+.order-button:focus {
   background-color: #3c47d0;
 }
 
@@ -138,6 +140,18 @@ body {
 .company-container {
   max-width: 1200px;
   margin: 0 auto;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
 }
 
 .list-company {
@@ -185,7 +199,6 @@ body {
 .second-item {
   flex-basis: calc((100% - 3 * 24px) / 4);
   padding: 20px;
-  background-color: #f0f0f0;
   text-align: center;
 }
 
