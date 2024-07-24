@@ -80,9 +80,6 @@ body {
 .header-menu {
   display: flex;
   gap: 40px;
-}
-
-.menu-item {
   padding: 24px 0;
 }
 
@@ -139,7 +136,7 @@ body {
 /* Company section styles */
 
 .company-section {
-  padding: 188px 0; 
+  padding: 120px 0; 
 }
 
 .company-container {
